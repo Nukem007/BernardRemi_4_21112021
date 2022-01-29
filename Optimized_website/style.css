@@ -697,7 +697,7 @@ p {
     font-family: "Open Sans";
 }
 
-.cta-hero {
+.cta-hero, .cta2-hero {
     margin-top    : 22px;
     color         : #FFFFFF !important;
     text-transform: uppercase;
