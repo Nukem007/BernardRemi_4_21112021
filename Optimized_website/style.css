@@ -66,10 +66,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto !important;
-    -moz-background-size   : auto !important;
-    -o-background-size     : auto !important;
-    background-size        : auto !important;
+    -webkit-background-size: 0px !important;
+    -moz-background-size   : 0px !important;
+    -o-background-size     : 0px !important;
+    background-size        : 0px !important;
 }
 
 .bg-repeat {
@@ -293,7 +293,7 @@ a:hover {
 }
 
 .navbar-brand {
-    height     : auto;
+    height     : 0px;
     padding    : 3px 15px;
     font-size  : 25px;
     font-weight: normal;
@@ -406,7 +406,7 @@ a:hover {
 
     .nav-center.mini-nav .navbar-toggle {
         float : none;
-        margin: 10px auto 0;
+        margin: 10px 0px 0;
     }
 }
 
@@ -575,12 +575,12 @@ a[data-lightbox]:hover img {
 #lightbox-modal .modal-dialog {
     width    : 90%;
     max-width: 900px;
-    margin   : 0 auto 0;
+    margin   : 0 0px 0;
 }
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
-    margin    : 0 auto;
+    margin    : 0 0px;
 }
 
 .lightbox-caption {
@@ -680,7 +680,7 @@ a {
     text-align : center;
     font-weight: lighter;
     max-width  : 520px;
-    margin     : auto auto auto auto;
+    margin     : 0px 0px 0px 0px;
 }
 
 p {
@@ -689,7 +689,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin   : auto auto auto auto;
+    margin   : 0px 0px 0px 0px;
 }
 
 .h1 {
@@ -708,7 +708,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin   : auto auto auto auto;
+    margin   : 0px 0px 0px 0px;
 }
 
 h2 {
@@ -725,7 +725,7 @@ h3 {
 
 .med-width-whitespace {
     max-width : 800px;
-    margin    : auto auto auto auto;
+    margin    : 0px 0px 0px 0px;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -894,8 +894,8 @@ h4 {
     }
 
     .bloc {
-        padding-left : auto;
-        padding-right: auto;
+        padding-left : 0px;
+        padding-right: 0px;
     }
 
     .bloc-group,
@@ -907,8 +907,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding      : 0 20px;
-        padding-left : auto;
-        padding-right: auto;
+        padding-left : 0px;
+        padding-right: 0px;
     }
 }
 
@@ -1000,7 +1000,7 @@ h4 {
 
     .navbar-brand img {
         max-height: 40px;
-        width     : auto;
+        width     : 0px;
     }
 
     .nav-invert .navbar-header {
